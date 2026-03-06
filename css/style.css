@@ -1,0 +1,28 @@
+/* Reset browser default styles */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Full page layout */
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color:#0f172a;
+    color:white;
+}
+
+/* Name styling */
+
+h1{
+    font-size:3rem;
+    letter-spacing:2px;
+}
